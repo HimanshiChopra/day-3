@@ -1,0 +1,23 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int r,c,row;
+    scanf("%d",&row);
+    for(r=1;r<=row;r++)
+    {
+        for(c=1;c<=r;c++)
+    {
+    printf("%d",r);
+    }
+    printf("\n");
+    }
+    
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    return 0;
+}
